@@ -13,10 +13,13 @@
     ],
     "require": {
         "php": ">=5.5.9",
-        "symfony/http-foundation": "~2.7|~3.0|~4.0",
-        "symfony/http-kernel": "~2.7|~3.0|~4.0"
+        "symfony/http-foundation": "~2.7|~3.0|~4.0"
+    },
+    "suggest": {
+        "symfony/http-kernel": "To use middleware"
     },
     "require-dev": {
+        "symfony/http-kernel": "~2.7|~3.0|~4.0",
         "phpunit/phpunit": "^5.0 || ^4.8.10",
         "squizlabs/php_codesniffer": "^2.3"
     },
